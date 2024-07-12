@@ -1,14 +1,22 @@
 main {
-    padding-top: 8em;
+    @media screen and (min-width: 600px) {
+        padding-top: 3em;
+    }
 }
 
 header, main, footer {
     font-family: "El Messiri", sans-serif;
 }
 
-main, footer {
-    background-color: darkslateblue;
+#about, #contact {
+    background-color: #222831;
+}
 
+#demos {
+    background-color: #76ABAE;
+}
+
+main, footer {
     section {
         padding-top: 5em;
         padding-bottom: 5em;
@@ -19,7 +27,7 @@ main, footer {
         }
     }
 
-    h1, h3, label {
+    h1, h2, h3, label {
         color: white;
     }
 
@@ -45,7 +53,7 @@ main, footer {
 }
 
 footer {
-    background-color: black;
+    background-color: #31363F;
     padding-top: 5em;
     padding-bottom: 5em;
 
